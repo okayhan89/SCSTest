@@ -50,7 +50,7 @@ public class ScsTest1ApplicationTests {
 		//String jdbcUrl = "jdbc:mysql://us-cdbr-iron-east-04.cleardb.net/ad_089f357c5f6b4e9?user=bbe6e5ccdab542&password=5025b3d1";
 		
 		try {
-			System.out.println("Loading driver...");
+			System.out.println("Loading driver...111");
 			Class.forName("com.mysql.jdbc.Driver");
 			System.out.println("Driver loaded!");
 		} catch (ClassNotFoundException e) {
